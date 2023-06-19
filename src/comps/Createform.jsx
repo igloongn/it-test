@@ -60,9 +60,10 @@ const Createform = () => {
                     <TextField
                         error={error}
                         required
-                        variant="filled"
+                        variant="contained"
                         id=""
-                        label="Product Name"
+                        label="This is an IT Test"
+                        // label="Product Name"
                         helperText={helperText}
                         onChange={(e) => setproductName(e.target.value)}
                     />
